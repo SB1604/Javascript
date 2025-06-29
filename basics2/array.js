@@ -21,3 +21,12 @@ console.log(typeof(change_arr))
 console.log(change_arr)
 
 //slice,splice
+const a=new Array(1,2,3,4,5,6,7,8,9)
+console.log("A: ",a)
+const sl=a.slice(1,3)
+console.log("B(After slice): ",a)//1,2,3,4,5,6,7,8,9
+console.log("SLICE: ",sl)//2,3
+
+const sp=a.splice(1,3)
+console.log("C(After splice): ",a)//1,5,6,7,8,9
+console.log("SPLICE: ",sp)//2,3,4
