@@ -43,7 +43,7 @@ users=student.filter((names)=>{
 console.log(users)
 
 users=student.filter((names)=>{
-    return names.name.startsWith("S")
+    return names.name.endsWith("z")
 })
 console.log(users)
 
